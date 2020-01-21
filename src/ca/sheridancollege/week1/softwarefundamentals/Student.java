@@ -14,6 +14,15 @@ public class Student {
     private String name;
   private int ID;
   private int GPA;
+  private String city;
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
 
     public int getGPA() {
         return GPA;
