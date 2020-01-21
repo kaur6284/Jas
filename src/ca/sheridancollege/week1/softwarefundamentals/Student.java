@@ -15,6 +15,7 @@ public class Student {
   private int ID;
   private int GPA;
   private String city;
+  private String status;
 
     public String getCity() {
         return city;
