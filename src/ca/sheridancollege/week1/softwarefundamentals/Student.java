@@ -13,6 +13,15 @@ public class Student {
     
     private String name;
   private int ID;
+  private int GPA;
+
+    public int getGPA() {
+        return GPA;
+    }
+
+    public void setGPA(int GPA) {
+        this.GPA = GPA;
+    }
     /**
      * Get the value of name
      *
